@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StarRatingView">
+        <!--尺寸值-->
+        <attr name="starSize" format="dimension" />
+        <!--星星间距-->
+        <attr name="starSpace" format="dimension" />
+        <!--星星总数-->
+        <attr name="starCount" format="integer" />
+        <!--空白的星星资源文件值-->
+        <attr name="starEmpty" format="reference" />
+        <!--满星资源文件值-->
+        <attr name="starFill" format="reference" />
+        <!--半星资源文件值-->
+        <attr name="starHalf" format="reference" />
+        <!--是否可点击-->
+        <attr name="starClickable" format="boolean" />
+        <!--当前进度-->
+        <attr name="starProgress" format="float" />
+        <!--最新进度-->
+        <attr name="starMinProgress" format="float" />
+        <!--每次进度方式的值，整星还是半星-->
+        <attr name="starStepFull" format="boolean" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,3 @@
+include ':rating'
+include ':app'
+rootProject.name = "StarRatingView"
